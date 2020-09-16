@@ -1,0 +1,22 @@
+{
+  "name": "NiceThings",
+  "version": "0.1.0",
+  "summary": "A short description of NiceThings.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mlemort/NiceThings",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mlemort": "maxime.lemort@technosens.fr"
+  },
+  "source": {
+    "git": "https://github.com/mlemort/NiceThings.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NiceThings/Classes/**/*"
+}
