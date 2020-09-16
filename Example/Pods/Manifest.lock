@@ -1,5 +1,19 @@
 PODS:
-  - NiceThings (0.1.0)
+  - NiceThings (0.1.0):
+    - NiceThings/ArrayRemoveFirstObjectMaching (= 0.1.0)
+    - NiceThings/CollectionSafeSubscript (= 0.1.0)
+    - NiceThings/ConditionalAssignmentOperator (= 0.1.0)
+    - NiceThings/DictionaryMapToDictionary (= 0.1.0)
+    - NiceThings/MulticastDelegate (= 0.1.0)
+    - NiceThings/OptionalIsNilOrEmpty (= 0.1.0)
+    - NiceThings/Swerl (= 0.1.0)
+  - NiceThings/ArrayRemoveFirstObjectMaching (0.1.0)
+  - NiceThings/CollectionSafeSubscript (0.1.0)
+  - NiceThings/ConditionalAssignmentOperator (0.1.0)
+  - NiceThings/DictionaryMapToDictionary (0.1.0)
+  - NiceThings/MulticastDelegate (0.1.0)
+  - NiceThings/OptionalIsNilOrEmpty (0.1.0)
+  - NiceThings/Swerl (0.1.0)
   - Nimble (7.3.4)
   - Quick (1.2.0)
 
@@ -18,7 +32,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NiceThings: b5c88a49a2d41fcc9fb13bda22566d5a00ee2621
+  NiceThings: d9f9ecb62e5c8a91a6e73851c933d6ccd1f9b42e
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 

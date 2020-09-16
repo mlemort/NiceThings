@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NiceThings
 
 class ViewController: UIViewController {
 
