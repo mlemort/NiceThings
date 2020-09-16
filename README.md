@@ -22,7 +22,7 @@ pod 'NiceThings'
 
 ## Author
 
-mlemort, maxime.lemort@technosens.fr
+mlemort, maxime.lemort@viseo.com
 
 ## License
 
