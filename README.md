@@ -32,10 +32,10 @@ or just add the subspecs you want:
 ```ruby
 pod 'NiceThings/ArrayRemoveFirstObjectMaching'
 ```
-This Array extension method remove the first element equal with ```object```. The element must be ```Equatable```.
+This Array extension add the method `removeFirstObject(maching:)` that remove the first element equal to `object`. The element must be `Equatable`.
 ```swift
 var ages = [12, 16, 2, 7, 16]
-ages.remove(object: 16)
+ages.removeFirstObject(maching: 16)
 print(ages)
 // [12, 2, 7, 16]
 ```
@@ -44,7 +44,7 @@ print(ages)
 ```ruby
 pod 'NiceThings/CollectionSafeSubscript'
 ```
-This Array extension provide a subscript returning an optional values at index. This is usefull if you don't want to crash with an out of bands index.
+This Array extension provide a subscript `[safe:]` returning an optional values at index. This is usefull if you don't want to crash with an out of bands index.
 ```swift
 var ages = [12, 16, 2, 7, 16]
 if ages[safe: 2] != nil {
@@ -61,7 +61,7 @@ if ages[safe: 25] == nil {
 ```ruby
 pod 'NiceThings/MulticastDelegate'
 ```
-This template class is usefull when you need multiple delegates.
+This template class is usefull when you need multiple delegates. You can add, remove and invoke methods on all delegates.
 ```swift
 protocol MyCustomClassDelegate: class {
     func aFonctionToBeProcessByDelegate()
@@ -156,7 +156,7 @@ print(str3.isNilOrEmpty)
 ```ruby
 pod 'NiceThings/Swerl'
 ```
-Extension to Optional and Result to switch from a type of error handling to another
+Extension to Optional and Result to switch from a type of error handling to another.
 * `unwrap()` : `Optional` -> `throws`
 * `unwrap()` : `Result` -> `throws` (with more information)
 * `toResult()` : `Optional` -> `Result`
