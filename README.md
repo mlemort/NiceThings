@@ -84,8 +84,8 @@ Optional(3.1400000000000001)
 ```ruby
 pod 'NiceThings/DictionaryMapToDictionary'
 ```
-This subspec adds the map function to swift dictionary.
-This function takes a closure and returns a new dictionary based on the return of that closure for each (key, value).
+This subspec adds the map method to swift dictionary.
+It takes a closure as parameter and apply that closure to each (key, value) pair to generate a new dictionary.
 ```swift
 let dic = ["A": "a", "B": "b", "C": "c"]
 let newDic = dic.map {
