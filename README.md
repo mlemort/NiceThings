@@ -18,12 +18,13 @@ There is a tests file for all subspec so you could juste see how it work, or con
 
 ## Installation
 
-NiceThings is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+NiceThings is available through [CocoaPods](https://cocoapods.org). To install all the subspec, simply add the following line to your Podfile:
 
 ```ruby
 pod 'NiceThings'
 ```
+
+or just add the subspecs you want:
 
 ## Subspecs
 
