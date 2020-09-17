@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'NiceThings_Example' do
+  pod 'SwiftLint', '~> 0.40'
   pod 'NiceThings', :path => '../'
 
   target 'NiceThings_Tests' do

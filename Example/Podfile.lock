@@ -16,16 +16,19 @@ PODS:
   - NiceThings/Swerl (0.1.0)
   - Nimble (7.3.4)
   - Quick (1.2.0)
+  - SwiftLint (0.40.2)
 
 DEPENDENCIES:
   - NiceThings (from `../`)
   - Nimble (~> 7.0)
   - Quick (~> 1.2.0)
+  - SwiftLint (~> 0.40)
 
 SPEC REPOS:
   trunk:
     - Nimble
     - Quick
+    - SwiftLint
 
 EXTERNAL SOURCES:
   NiceThings:
@@ -35,7 +38,8 @@ SPEC CHECKSUMS:
   NiceThings: d9f9ecb62e5c8a91a6e73851c933d6ccd1f9b42e
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SwiftLint: 1216c910d27c2633ade33b4f071bb6b930982e62
 
-PODFILE CHECKSUM: 150b73ccfd313787651ecd286c0f74c0585dde41
+PODFILE CHECKSUM: 7608844938644fde3ca7a9ac7c3f586c021949ac
 
 COCOAPODS: 1.9.3
