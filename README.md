@@ -161,12 +161,12 @@ Extension to Optional and Result to switch from a type of error handling to anot
 * `unwrap()` : `Result` -> `throws` (with more information)
 * `toResult()` : `Optional` -> `Result`
 * `toOptional()` : `Result` -> `Optional`
-* `assume()` : `Result` -> `fatalError()`
+* `assume()` : `Result` -> `fatalError()`  
 ![Swerl](Swerl.png)
 
 ## Collaboration
 
-I'll be glad to add other usefull swift tricks in this pod, **so feel free to make pull request** if you wish to see more.
+I'll be glad to add other usefull swift tricks in this pod, **so feel free to make pull request** if you wish to see more.  
 *Do not forget the tests ;)*
 
 ## Author
