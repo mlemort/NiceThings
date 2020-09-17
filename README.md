@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-There are test files under the `[Tests](https://github.com/mlemort/NiceThings/tree/master/Example/Tests)` folder for all subspecs, so you can just see how it works, or continue to read further for Subspecs section.
+There are test files under the [Tests](https://github.com/mlemort/NiceThings/tree/master/Example/Tests) folder for all subspecs, so you can just see how it works, or continue to read further for Subspecs section.
 
 ## Requirements
 
@@ -24,7 +24,7 @@ NiceThings is available through [CocoaPods](https://cocoapods.org). To install a
 pod 'NiceThings'
 ```
 
-or just add the subspecs you want see below.
+or just add the subspecs you want, see below.
 
 ## Subspecs
 
