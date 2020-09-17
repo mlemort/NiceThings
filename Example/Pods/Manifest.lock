@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NiceThings: d9f9ecb62e5c8a91a6e73851c933d6ccd1f9b42e
+  NiceThings: ef8a306648ffb869f61e0f9b0c5fd576caedcd70
   Nimble: 3864815b4703c7ebffba875973c70e854489fbae
   Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
   SwiftLint: 1216c910d27c2633ade33b4f071bb6b930982e62

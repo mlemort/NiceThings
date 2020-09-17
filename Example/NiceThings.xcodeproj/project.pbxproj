@@ -18,6 +18,7 @@
 		7EB409C6251255DE00FDA4F0 /* ArrayRemoveFirstObjectMachingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C0251255DE00FDA4F0 /* ArrayRemoveFirstObjectMachingTests.swift */; };
 		7EB409C7251255DE00FDA4F0 /* CollectionSafeSubscriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C1251255DE00FDA4F0 /* CollectionSafeSubscriptTests.swift */; };
 		7EB409C8251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C2251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift */; };
+		7EB409CC25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409CB25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift */; };
 		7F258ACF0866C323953EC98E /* Pods_NiceThings_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3554F4B2AFAC689DBA709AC2 /* Pods_NiceThings_Example.framework */; };
 		BE8F128403CFC3D50D8628AB /* Pods_NiceThings_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF11B9766FCB6FCED15E9931 /* Pods_NiceThings_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,8 @@
 		7EB409C0251255DE00FDA4F0 /* ArrayRemoveFirstObjectMachingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayRemoveFirstObjectMachingTests.swift; sourceTree = "<group>"; };
 		7EB409C1251255DE00FDA4F0 /* CollectionSafeSubscriptTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionSafeSubscriptTests.swift; sourceTree = "<group>"; };
 		7EB409C2251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionalAssignmentOperatorTests.swift; sourceTree = "<group>"; };
+		7EB409CA25135C7400FDA4F0 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		7EB409CB25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalIsNilOrEmptyTests.swift; sourceTree = "<group>"; };
 		AD5207889CDCE168726298C5 /* NiceThings.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NiceThings.podspec; path = ../NiceThings.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF11B9766FCB6FCED15E9931 /* Pods_NiceThings_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceThings_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37EC701E077C66CC530581E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -131,6 +134,7 @@
 				7EB409C2251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift */,
 				7EB409BD251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift */,
 				7EB409BE251255DE00FDA4F0 /* MulticastDelegateTests.swift */,
+				7EB409CB25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift */,
 				7EB409BF251255DE00FDA4F0 /* SwerlTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 				7EB409BC251255DD00FDA4F0 /* NiceThings_Tests-Bridging-Header.h */,
@@ -152,6 +156,7 @@
 				AD5207889CDCE168726298C5 /* NiceThings.podspec */,
 				F37EC701E077C66CC530581E /* README.md */,
 				194F2557DF2FF3C42F3C64F8 /* LICENSE */,
+				7EB409CA25135C7400FDA4F0 /* .swiftlint.yml */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -401,6 +406,7 @@
 				7EB409C6251255DE00FDA4F0 /* ArrayRemoveFirstObjectMachingTests.swift in Sources */,
 				7EB409C7251255DE00FDA4F0 /* CollectionSafeSubscriptTests.swift in Sources */,
 				7EB409C8251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift in Sources */,
+				7EB409CC25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift in Sources */,
 				7EB409C3251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift in Sources */,
 				7EB409C4251255DE00FDA4F0 /* MulticastDelegateTests.swift in Sources */,
 			);
