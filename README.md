@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-There is a tests file for all subspec so you could juste see how it work, or continue to read further to the Subspecs section.
+There are test files under the `[Tests](https://github.com/mlemort/NiceThings/tree/master/Example/Tests)` folder for all subspecs, so you can just see how it works, or continue to read further for Subspecs section.
 
 ## Requirements
 
@@ -18,13 +18,13 @@ There is a tests file for all subspec so you could juste see how it work, or con
 
 ## Installation
 
-NiceThings is available through [CocoaPods](https://cocoapods.org). To install all the subspec, simply add the following line to your Podfile:
+NiceThings is available through [CocoaPods](https://cocoapods.org). To install all the subspecs, simply add the following line to your Podfile:
 
 ```ruby
 pod 'NiceThings'
 ```
 
-or just add the subspecs you want:
+or just add the subspecs you want see below.
 
 ## Subspecs
 
@@ -62,7 +62,7 @@ if ages[safe: 25] == nil {
 pod 'NiceThings/ContionalAssignmentOperator'
 ```
 This subspec adds the operator `variable ??= value` to swift.
-It assigns `value` to `variable` if `variable` is `nil`; otherwise, `variable` stays the same.
+It assigns `value` to `variable` if `variable` is `nil`; otherwise, `variable` remains the same.
 ```swift
 var val1: Int?
 val1 ??= 12
@@ -85,7 +85,7 @@ Optional(3.1400000000000001)
 pod 'NiceThings/DictionaryMapToDictionary'
 ```
 This subspec adds the map function to swift dictionary.
-This function take a closure and return a new dictionary bases on the return of that closure on each (key, value).
+This function takes a closure and returns a new dictionary based on the return of that closure for each (key, value).
 ```swift
 let dic = ["A": "a", "B": "b", "C": "c"]
 let newDic = dic.map {
@@ -99,7 +99,7 @@ print(newDic)
 ```ruby
 pod 'NiceThings/OptionalIsNilOrEmpty'
 ```
-Extension to Collection? to know if it is nil or empty.
+Extension of Collection? to know if it is nil or empty.
 ```swift
 let str1: String? = "not a nil or empty string"
 print(str1.isNilOrEmpty)
@@ -116,7 +116,7 @@ print(str3.isNilOrEmpty)
 ```ruby
 pod 'NiceThings/Swerl'
 ```
-Extension to Optional and Result to switch from a type of error handling to another.
+Extension of Optional and Result to switch from a type of error handling to another.
 * `unwrap()` : `Optional` -> `throws`
 * `unwrap()` : `Result` -> `throws` (with more information)
 * `toResult()` : `Optional` -> `Result`
@@ -126,7 +126,7 @@ Extension to Optional and Result to switch from a type of error handling to anot
 
 ## Collaboration
 
-I'll be glad to add other usefull swift tricks in this pod, **so feel free to make pull request** if you wish to see more.  
+I'd be glad to add other usefull Swift tricks in this pod, **so feel free to make pull requests** if you wish to get more features.  
 *Do not forget the tests ;)*
 
 ## Author
