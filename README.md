@@ -32,7 +32,7 @@ or just add the subspecs you want:
 ```ruby
 pod 'NiceThings/ArrayRemoveFirstObjectMaching'
 ```
-This Array extension adds the method `removeFirstObject(maching:)` that remove the first element equal to `object`. The element must be `Equatable`.
+This Array extension adds the method `removeFirstObject(maching:)`. It removes the first element equal to `object`. The element must be `Equatable`.
 ```swift
 var ages = [12, 16, 2, 7, 16]
 ages.removeFirstObject(maching: 16)
@@ -102,7 +102,7 @@ multicastDelegate.invoke(invocation: { $0.aFonctionToBeProcessByDelegate() })
 pod 'NiceThings/ContionalAssignmentOperator'
 ```
 This subspec adds the operator `variable ??= value` to swift.
-It assign `value` to `variable` if `variable` is `nil`; otherwise, `variable` stays the same.
+It assigns `value` to `variable` if `variable` is `nil`; otherwise, `variable` stays the same.
 ```swift
 var val1: Int?
 val1 ??= 12
