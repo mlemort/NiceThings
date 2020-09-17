@@ -1,5 +1,5 @@
 //
-//  ArrayRemoveFirstObjectMachingTests.swift
+//  ArrayRemoveFirstObjectMatchingTests.swift
 //  INONiceThings_ExampleTests
 //
 //  Created by maxime.lemort on 21/02/2020.
@@ -10,7 +10,7 @@ import NiceThings
 import Quick
 import Nimble
 
-class ArrayRemoveFirstObjectMachingTests: QuickSpec {
+class ArrayRemoveFirstObjectMatchingTests: QuickSpec {
     
     override func spec() {
         it("When removing an element of the array, the array do not contain the element anymore.") {
@@ -18,7 +18,7 @@ class ArrayRemoveFirstObjectMachingTests: QuickSpec {
             var array = [12, 16, 2, 7]
             
             // test
-            array.removeFirstObject(maching: 16)
+            array.removeFirstObject(matching: 16)
             
             // expect
             expect(array).to(equal([12, 2, 7]))
@@ -29,7 +29,7 @@ class ArrayRemoveFirstObjectMachingTests: QuickSpec {
             var array = [12, 16, 2, 7]
             
             // test
-            array.removeFirstObject(maching: 24)
+            array.removeFirstObject(matching: 24)
             
             // expect
             expect(array).to(equal([12, 16, 2, 7]))
@@ -40,7 +40,7 @@ class ArrayRemoveFirstObjectMachingTests: QuickSpec {
             var array = ["orange", "apple", "banana", "apple", "blueberry", "apple"]
             
             // test
-            array.removeFirstObject(maching: "apple")
+            array.removeFirstObject(matching: "apple")
             
             // expect
             expect(array).to(equal(["orange", "banana", "apple", "blueberry", "apple"]))

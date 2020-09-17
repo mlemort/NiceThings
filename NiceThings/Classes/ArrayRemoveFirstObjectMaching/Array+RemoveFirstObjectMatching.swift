@@ -1,5 +1,5 @@
 //
-//  Array+RemoveFirstObjectMaching.swift
+//  Array+RemoveFirstObjectMatching.swift
 //  INONiceThings
 //
 //  Created by Maxime Lemort on 16/10/2017.
@@ -14,8 +14,8 @@ public extension Array where Element: Equatable {
      
      - parameter object: the object to remove
      */
-    mutating func removeFirstObject(maching: Element) {
-        if let index = firstIndex(of: maching) {
+    mutating func removeFirstObject(matching: Element) {
+        if let index = firstIndex(of: matching) {
             remove(at: index)
         }
     }

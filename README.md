@@ -28,14 +28,14 @@ or just add the subspecs you want:
 
 ## Subspecs
 
-#### ArrayRemoveFirstObjectMaching
+#### ArrayRemoveFirstObjectMatching
 ```ruby
-pod 'NiceThings/ArrayRemoveFirstObjectMaching'
+pod 'NiceThings/ArrayRemoveFirstObjectMatching'
 ```
-This Array extension adds the method `removeFirstObject(maching:)`. It removes the first element equal to `object`. The element must be `Equatable`.
+This Array extension adds the method `removeFirstObject(matching:)`. It removes the first element equal to `object`. The element must be `Equatable`.
 ```swift
 var ages = [12, 16, 2, 7, 16]
-ages.removeFirstObject(maching: 16)
+ages.removeFirstObject(matching: 16)
 print(ages)
 // [12, 2, 7, 16]
 ```
@@ -44,7 +44,7 @@ print(ages)
 ```ruby
 pod 'NiceThings/CollectionSafeSubscript'
 ```
-This Array extension provides a subscript `[safe:]` returning an optional value for the given index. This is usefull if you don't want to crash with an out of bands index.
+This Array extension provides a subscript `[safe:]` returning an optional value for the given index. This is usefull if you don't want to crash with an out of bounds index.
 ```swift
 var ages = [12, 16, 2, 7, 16]
 if ages[safe: 2] != nil {
