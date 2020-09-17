@@ -9,7 +9,12 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+There is a tests file for all subspec so you could juste see how it work, or continue to read further to the Subspecs section.
+
 ## Requirements
+
+- iOS 10.3
+- Swift 5
 
 ## Installation
 
@@ -20,9 +25,12 @@ it, simply add the following line to your Podfile:
 pod 'NiceThings'
 ```
 
-## Subspec
+## Subspecs
 
 #### ArrayRemoveFirstObjectMaching
+```ruby
+pod 'NiceThings/ArrayRemoveFirstObjectMaching'
+```
 This Array extension method remove the first element equal with ```object```. The element must be ```Equatable```.
 ```swift
 var ages = [12, 16, 2, 7, 16]
@@ -32,6 +40,9 @@ print(ages)
 ```
 
 #### CollectionSafeSubscript
+```ruby
+pod 'NiceThings/CollectionSafeSubscript'
+```
 This Array extension provide a subscript returning an optional values at index. This is usefull if you don't want to crash with an out of bands index.
 ```swift
 var ages = [12, 16, 2, 7, 16]
@@ -46,6 +57,9 @@ if ages[safe: 25] == nil {
 ```
 
 #### MulticastDelegate
+```ruby
+pod 'NiceThings/MulticastDelegate'
+```
 This template class is usefull when you need multiple delegate.
 ```swift
 protocol MyCustomClassDelegate: class {
@@ -83,6 +97,9 @@ multicastDelegate.invoke(invocation: { $0.aFonctionToBeProcessByDelegate() })
 ```
 
 #### ContionalAssignmentOperator
+```ruby
+pod 'NiceThings/ContionalAssignmentOperator'
+```
 This subspec add the operator `variable ??= value` to swift.
 Assign value to `variable` if `variable` is `nil`; otherwise, `variable` stays the same.
 ```swift
@@ -103,6 +120,9 @@ Optional(3.1400000000000001)
 ```
 
 #### DictionaryMapToDictionary
+```ruby
+pod 'NiceThings/DictionaryMapToDictionary'
+```
 This subspec add the map function to swift dictionary.
 This function take a closure and return a new dictionary bases on the return of that closure on each (key, value).
 ```swift
@@ -115,6 +135,9 @@ print(newDic)
 ```
 
 #### OptionalIsNilOrEmpty
+```ruby
+pod 'NiceThings/OptionalIsNilOrEmpty'
+```
 Extension to Collection? to know if it is nil or empty.
 ```swift
 let str1: String? = "not a nil or empty string"
@@ -129,6 +152,9 @@ print(str3.isNilOrEmpty)
 ```
 
 #### Swerl [by philsquared](https://github.com/philsquared/swerl)
+```ruby
+pod 'NiceThings/Swerl'
+```
 Extension to Optional and Result to switch from a type of error handling to another
 * `unwrap()` : `Optional` -> `throws`
 * `unwrap()` : `Result` -> `throws` (with more information)

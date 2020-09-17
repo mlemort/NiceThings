@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This pod regroupe nice and usefull things i often use in my iOS projects.
+  It works with subspec so you could just import the thing you want in your project.
+  See the Readme for exemple.
                        DESC
 
   s.homepage         = 'https://github.com/mlemort/NiceThings'
@@ -28,7 +30,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/mlemort/NiceThings.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '10.3'
   s.swift_version = '5.0'
 
   # s.resource_bundles = {
