@@ -13,7 +13,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		7EB409C3251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409BD251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift */; };
-		7EB409C4251255DE00FDA4F0 /* MulticastDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409BE251255DE00FDA4F0 /* MulticastDelegateTests.swift */; };
 		7EB409C5251255DE00FDA4F0 /* SwerlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409BF251255DE00FDA4F0 /* SwerlTests.swift */; };
 		7EB409C6251255DE00FDA4F0 /* ArrayRemoveFirstObjectMachingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C0251255DE00FDA4F0 /* ArrayRemoveFirstObjectMachingTests.swift */; };
 		7EB409C7251255DE00FDA4F0 /* CollectionSafeSubscriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C1251255DE00FDA4F0 /* CollectionSafeSubscriptTests.swift */; };
@@ -50,7 +49,6 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EB409BC251255DD00FDA4F0 /* NiceThings_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NiceThings_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		7EB409BD251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryMapToDictionayTests.swift; sourceTree = "<group>"; };
-		7EB409BE251255DE00FDA4F0 /* MulticastDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticastDelegateTests.swift; sourceTree = "<group>"; };
 		7EB409BF251255DE00FDA4F0 /* SwerlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwerlTests.swift; sourceTree = "<group>"; };
 		7EB409C0251255DE00FDA4F0 /* ArrayRemoveFirstObjectMachingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayRemoveFirstObjectMachingTests.swift; sourceTree = "<group>"; };
 		7EB409C1251255DE00FDA4F0 /* CollectionSafeSubscriptTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionSafeSubscriptTests.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 				7EB409C1251255DE00FDA4F0 /* CollectionSafeSubscriptTests.swift */,
 				7EB409C2251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift */,
 				7EB409BD251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift */,
-				7EB409BE251255DE00FDA4F0 /* MulticastDelegateTests.swift */,
 				7EB409CB25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift */,
 				7EB409BF251255DE00FDA4F0 /* SwerlTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
@@ -408,7 +405,6 @@
 				7EB409C8251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift in Sources */,
 				7EB409CC25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift in Sources */,
 				7EB409C3251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift in Sources */,
-				7EB409C4251255DE00FDA4F0 /* MulticastDelegateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

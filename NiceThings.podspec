@@ -45,10 +45,6 @@ Pod::Spec.new do |s|
     arfom.source_files = "NiceThings/Classes/ArrayRemoveFirstObjectMaching/**/*.swift"
   end
 
-  s.subspec 'MulticastDelegate' do |md|
-    md.source_files = "NiceThings/Classes/MulticastDelegate/**/*.swift"
-  end
-
   s.subspec 'CollectionSafeSubscript' do |css|
     css.source_files = "NiceThings/Classes/CollectionSafeSubscript/**/*.swift"
   end

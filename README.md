@@ -57,46 +57,6 @@ if ages[safe: 25] == nil {
 // ages has less then 26 entries
 ```
 
-#### MulticastDelegate
-```ruby
-pod 'NiceThings/MulticastDelegate'
-```
-This template class is usefull when you need multiple delegates. You can add, remove and invoke methods on all delegates.
-```swift
-protocol MyCustomClassDelegate: class {
-    func aFonctionToBeProcessByDelegate()
-}
-
-class AClass: MyCustomClassDelegate {
-    func aFonctionToBeProcessByDelegate() {
-        print("aClass process aFonctionToBeProcessByDelegate")
-    }
-}
-
-class AnOtherClass: MyCustomClassDelegate {
-    func aFonctionToBeProcessByDelegate() {
-        print("anOtherClass process aFonctionToBeProcessByDelegate")
-    }
-}
-
-let multicastDelegate = MulticastDelegate<MyCustomClassDelegate>()
-var aClass: AClass? = AClass()
-let anOtherClass = AnOtherClass()
-multicastDelegate.add(delegate: aClass!)
-multicastDelegate.add(delegate: anOtherClass)
-multicastDelegate.invoke(invocation: { $0.aFonctionToBeProcessByDelegate() })
-// anOtherClass process aFonctionToBeProcessByDelegate
-// aClass process aFonctionToBeProcessByDelegate
-
-multicastDelegate.remove(delegate: anOtherClass)
-multicastDelegate.invoke(invocation: { $0.aFonctionToBeProcessByDelegate() })
-// aClass process aFonctionToBeProcessByDelegate
-
-aClass = nil
-multicastDelegate.invoke(invocation: { $0.aFonctionToBeProcessByDelegate() })
-//
-```
-
 #### ContionalAssignmentOperator
 ```ruby
 pod 'NiceThings/ContionalAssignmentOperator'
