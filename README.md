@@ -24,7 +24,7 @@ NiceThings is available through [CocoaPods](https://cocoapods.org). To install a
 pod 'NiceThings'
 ```
 
-or just add the subspecs you want see below.
+or just add the subspecs you want, see below.
 
 ## Subspecs
 
