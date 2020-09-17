@@ -25,10 +25,6 @@
       "source_files": "NiceThings/Classes/ArrayRemoveFirstObjectMaching/**/*.swift"
     },
     {
-      "name": "MulticastDelegate",
-      "source_files": "NiceThings/Classes/MulticastDelegate/**/*.swift"
-    },
-    {
       "name": "CollectionSafeSubscript",
       "source_files": "NiceThings/Classes/CollectionSafeSubscript/**/*.swift"
     },
