@@ -44,7 +44,7 @@ print(ages)
 ```ruby
 pod 'NiceThings/CollectionSafeSubscript'
 ```
-This Array extension provide a subscript `[safe:]` returning an optional values at index. This is usefull if you don't want to crash with an out of bands index.
+This Array extension provides a subscript `[safe:]` returning an optional value for the given index. This is usefull if you don't want to crash with an out of bands index.
 ```swift
 var ages = [12, 16, 2, 7, 16]
 if ages[safe: 2] != nil {
@@ -102,7 +102,7 @@ multicastDelegate.invoke(invocation: { $0.aFonctionToBeProcessByDelegate() })
 pod 'NiceThings/ContionalAssignmentOperator'
 ```
 This subspec adds the operator `variable ??= value` to swift.
-Assign `value` to `variable` if `variable` is `nil`; otherwise, `variable` stays the same.
+It assign `value` to `variable` if `variable` is `nil`; otherwise, `variable` stays the same.
 ```swift
 var val1: Int?
 val1 ??= 12
