@@ -41,28 +41,28 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.subspec 'ArrayRemoveFirstObjectMaching' do |aro|
-    aro.source_files = "NiceThings/Classes/ArrayRemoveFirstObjectMaching/**/*.swift"
+  s.subspec 'ArrayRemoveFirstObjectMaching' do |arfom|
+    arfom.source_files = "NiceThings/Classes/ArrayRemoveFirstObjectMaching/**/*.swift"
   end
 
   s.subspec 'MulticastDelegate' do |md|
     md.source_files = "NiceThings/Classes/MulticastDelegate/**/*.swift"
   end
 
-  s.subspec 'CollectionSafeSubscript' do |ss|
-    ss.source_files = "NiceThings/Classes/CollectionSafeSubscript/**/*.swift"
+  s.subspec 'CollectionSafeSubscript' do |css|
+    css.source_files = "NiceThings/Classes/CollectionSafeSubscript/**/*.swift"
   end
 
   s.subspec 'ConditionalAssignmentOperator' do |cao|
       cao.source_files = "NiceThings/Classes/ConditionalAssignmentOperator/**/*.swift"
   end
 
-  s.subspec 'DictionaryMapToDictionary' do |dict|
-      dict.source_files = "NiceThings/Classes/DictionaryMapToDictionary/**/*.swift"
+  s.subspec 'DictionaryMapToDictionary' do |dmd|
+      dmd.source_files = "NiceThings/Classes/DictionaryMapToDictionary/**/*.swift"
   end
 
-  s.subspec 'OptionalIsNilOrEmpty' do |dict|
-      dict.source_files = "NiceThings/Classes/OptionalIsNilOrEmpty/**/*.swift"
+  s.subspec 'OptionalIsNilOrEmpty' do |one|
+      one.source_files = "NiceThings/Classes/OptionalIsNilOrEmpty/**/*.swift"
   end
 
   s.subspec 'Swerl' do |swerl|
