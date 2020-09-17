@@ -10,7 +10,7 @@ extension Dictionary {
     /**
      Map a dictionary to another dictionary.
      
-     - parameter transform: the closure called to each (key, value) of the dictionary, used to generate an other dictionary.
+     - parameter transform: the closure called for each (key, value) of the dictionary, used to generate an other dictionary.
      - returns: the new dictionary.
      */
     public func map<T: Hashable, U>(transform: (Key, Value) throws -> (T, U)) rethrows -> [T: U] {
