@@ -4,7 +4,7 @@
 //
 //  Created by Phil Nash on 11/03/2019.
 //  Copyright © 2019 Two Blue Cubes. All rights reserved.
-//
+//  https://github.com/philsquared/swerl/blob/master/LICENSE
 
 import Foundation
 
