@@ -61,7 +61,7 @@ if ages[safe: 25] == nil {
 ```ruby
 pod 'NiceThings/MulticastDelegate'
 ```
-This template class is usefull when you need multiple delegate.
+This template class is usefull when you need multiple delegates.
 ```swift
 protocol MyCustomClassDelegate: class {
     func aFonctionToBeProcessByDelegate()
@@ -163,6 +163,11 @@ Extension to Optional and Result to switch from a type of error handling to anot
 * `toOptional()` : `Result` -> `Optional`
 * `assume()` : `Result` -> `fatalError()`
 ![Swerl](Swerl.png)
+
+## Collaboration
+
+I'll be glad to add other usefull swift tricks in this pod, **so feel free to make pull request** if you wish to see more.
+*Do not forget the tests ;)*
 
 ## Author
 
