@@ -12,14 +12,14 @@ PODS:
   - NiceThings/DictionaryMapToDictionary (1.0.0)
   - NiceThings/OptionalIsNilOrEmpty (1.0.0)
   - NiceThings/Swerl (1.0.0)
-  - Nimble (8.1.2)
+  - Nimble (9.0.0-rc.3)
   - Quick (3.0.0)
   - SwiftLint (0.40.2)
 
 DEPENDENCIES:
   - NiceThings (from `../`)
-  - Nimble (~> 8.1)
-  - Quick (~> 3.0)
+  - Nimble (= 9.0.0-rc.3)
+  - Quick
   - SwiftLint (~> 0.40)
 
 SPEC REPOS:
@@ -33,11 +33,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NiceThings: e07c1671f8db86003f9d3406a677ae7bab3238ff
-  Nimble: 3864815b4703c7ebffba875973c70e854489fbae
+  NiceThings: 5ab3bace7501bdb4fe6e27db5c079cdda06372a9
+  Nimble: 1b5fa99320d0d87ed72bb0add38dc696aa77f556
   Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
   SwiftLint: 1216c910d27c2633ade33b4f071bb6b930982e62
 
-PODFILE CHECKSUM: 108cfd8ad8b807b6b40ed4a74011f174d435f5ff
+PODFILE CHECKSUM: 59556998f6a2cd757fe32b2b6f1a76ebf561396c
 
 COCOAPODS: 1.9.3

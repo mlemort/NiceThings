@@ -6,8 +6,8 @@ def sharedPods
 end
 
 def sharedTestsPods
-  pod 'Quick', '~> 3.0'
-  pod 'Nimble', '~> 8.1'
+  pod 'Quick'
+  pod 'Nimble', '9.0.0-rc.3'
 end
 
 target 'NiceThings_Example' do
@@ -25,6 +25,16 @@ target 'NiceThingsMacOS_Example' do
   sharedPods
 
   target 'NiceThingsMacOS_Tests' do
+    inherit! :search_paths
+    sharedTestsPods
+  end
+end
+
+target 'NiceThingsTvOS_Example' do
+  platform :tvos, '13.3'
+  sharedPods
+
+  target 'NiceThingsTvOS_Tests' do
     inherit! :search_paths
     sharedTestsPods
   end

@@ -91,7 +91,7 @@ class SwerlTests: QuickSpec {
                     
                     // expect
                     let error = OptionalNotSet(message: "Optional not set", file: #file, line: 90)
-                    expect(expression: handler).to(throwError(error))
+                    expect(handler).to(throwError(error))
                 }
                 #endif
                 
@@ -120,7 +120,7 @@ class SwerlTests: QuickSpec {
                     
                     // expect
                     let error = OptionalNotSet(message: "This is a custom message", file: #file, line: 119)
-                    expect(expression: handler).to(throwError(error))
+                    expect(handler).to(throwError(error))
                 }
                 #endif
             }
@@ -153,7 +153,7 @@ class SwerlTests: QuickSpec {
                     
                     // expect
                     let error = ResultNotSet(message: "Result assumed to contain value, but actually held error: ResultNotSet(message: \"Error Message\", file: \"\(#file)\", line: 149)", file: #file, line: 152)
-                    expect(expression: handler).to(throwError(error))
+                    expect(handler).to(throwError(error))
                 }
                 #endif
             }
@@ -194,7 +194,7 @@ class SwerlTests: QuickSpec {
                     expect(res).to(equal(3))
                 }
                 
-                #if arch(x86_64)
+                #if (os(macOS) || os(iOS)) && arch(x86_64)
                 it("When assume failure result, it crash") {
                     // setup
                     let result = Result<Int, ResultNotSet>.failure(ResultNotSet(message: "Error Message", file: #file, line: #line))
@@ -203,7 +203,7 @@ class SwerlTests: QuickSpec {
                     let handler = { _ = result.assume() }
                     
                     // expect
-                    expect(expression: handler).to(throwAssertion())
+                    expect(handler).to(throwAssertion())
                 }
                 #endif
             }
