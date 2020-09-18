@@ -1,6 +1,0 @@
-framework module NiceThings {
-  umbrella header "NiceThings-umbrella.h"
-
-  export *
-  module * { export * }
-}

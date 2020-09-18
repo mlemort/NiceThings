@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.3'
+  s.macos.deployment_target = '10.15'
   s.swift_version = '5.0'
 
   # s.resource_bundles = {
