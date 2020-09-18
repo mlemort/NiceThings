@@ -8,7 +8,9 @@ xcode_workspace: Example/NiceThings.xcworkspace
 xcode_scheme: NiceThingsIOS_Example
 xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone SE (2nd generation)
 podfile: Example/Podfile
-#script:
-#  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/NiceThings.xcworkspace -scheme NiceThingsIOS_Example -sdk iphonesimulator14.0 ONLY_ACTIVE_ARCH=NO | xcpretty
-#  - pod lib lint
+script:
+  - set -o pipefail && xcodebuild build test -enableCodeCoverage YES -workspace Example/NiceThings.xcworkspace -scheme NiceThingsIOS_Example -destination platform\=iOS\ Simulator,OS\=14.0,name\=iPhone\ SE\ \(2nd\ generation\) | xcpretty
+  - set -o pipefail && xcodebuild build test -enableCodeCoverage YES -workspace Example/NiceThings.xcworkspace -scheme NiceThingsTvOS_Example -destination platform\=tvOS\ Simulator,OS\=14.0,name\=Apple\ TV | xcpretty
+  - set -o pipefail && xcodebuild build test -enableCodeCoverage YES -workspace Example/NiceThings.xcworkspace -scheme NiceThingsMacOS_Example | xcpretty
+  - pod lib lint
 
