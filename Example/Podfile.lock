@@ -1,17 +1,17 @@
 PODS:
-  - NiceThings (0.1.0):
-    - NiceThings/ArrayRemoveFirstObjectMaching (= 0.1.0)
-    - NiceThings/CollectionSafeSubscript (= 0.1.0)
-    - NiceThings/ConditionalAssignmentOperator (= 0.1.0)
-    - NiceThings/DictionaryMapToDictionary (= 0.1.0)
-    - NiceThings/OptionalIsNilOrEmpty (= 0.1.0)
-    - NiceThings/Swerl (= 0.1.0)
-  - NiceThings/ArrayRemoveFirstObjectMaching (0.1.0)
-  - NiceThings/CollectionSafeSubscript (0.1.0)
-  - NiceThings/ConditionalAssignmentOperator (0.1.0)
-  - NiceThings/DictionaryMapToDictionary (0.1.0)
-  - NiceThings/OptionalIsNilOrEmpty (0.1.0)
-  - NiceThings/Swerl (0.1.0)
+  - NiceThings (1.0.0):
+    - NiceThings/ArrayRemoveFirstObjectMaching (= 1.0.0)
+    - NiceThings/CollectionSafeSubscript (= 1.0.0)
+    - NiceThings/ConditionalAssignmentOperator (= 1.0.0)
+    - NiceThings/DictionaryMapToDictionary (= 1.0.0)
+    - NiceThings/OptionalIsNilOrEmpty (= 1.0.0)
+    - NiceThings/Swerl (= 1.0.0)
+  - NiceThings/ArrayRemoveFirstObjectMaching (1.0.0)
+  - NiceThings/CollectionSafeSubscript (1.0.0)
+  - NiceThings/ConditionalAssignmentOperator (1.0.0)
+  - NiceThings/DictionaryMapToDictionary (1.0.0)
+  - NiceThings/OptionalIsNilOrEmpty (1.0.0)
+  - NiceThings/Swerl (1.0.0)
   - Nimble (8.1.2)
   - Quick (3.0.0)
   - SwiftLint (0.40.2)
@@ -33,11 +33,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NiceThings: f7a3a04229a55c957148dbea2b8968f11e798bf0
+  NiceThings: e07c1671f8db86003f9d3406a677ae7bab3238ff
   Nimble: 3864815b4703c7ebffba875973c70e854489fbae
   Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
   SwiftLint: 1216c910d27c2633ade33b4f071bb6b930982e62
 
-PODFILE CHECKSUM: 6733c896459755a0968d751cbd46a69d70cee837
+PODFILE CHECKSUM: 962c9158fae0871b3669d80bfcf9ec7d8fb45ad3
 
 COCOAPODS: 1.9.3

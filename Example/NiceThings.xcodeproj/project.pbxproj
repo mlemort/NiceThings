@@ -35,6 +35,7 @@
 /* Begin PBXFileReference section */
 		194F2557DF2FF3C42F3C64F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		255B254AA8C93BE4461056AA /* Pods-NiceThings_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThings_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NiceThings_Tests/Pods-NiceThings_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FD9CD97E1BC89239677AB51 /* Pods-NiceThingsMacOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsMacOS_Example.release.xcconfig"; path = "Target Support Files/Pods-NiceThingsMacOS_Example/Pods-NiceThingsMacOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3554F4B2AFAC689DBA709AC2 /* Pods_NiceThings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceThings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0641086E7CC99D835C5881 /* Pods-NiceThings_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThings_Example.debug.xcconfig"; path = "Target Support Files/Pods-NiceThings_Example/Pods-NiceThings_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5047F7EF7D7BDBC3DBA00FCD /* Pods-NiceThings_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThings_Tests.release.xcconfig"; path = "Target Support Files/Pods-NiceThings_Tests/Pods-NiceThings_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* NiceThings_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceThings_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EB409BC251255DD00FDA4F0 /* NiceThings_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NiceThings_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		7EB409BD251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryMapToDictionayTests.swift; sourceTree = "<group>"; };
 		7EB409BF251255DE00FDA4F0 /* SwerlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwerlTests.swift; sourceTree = "<group>"; };
 		7EB409C0251255DE00FDA4F0 /* ArrayRemoveFirstObjectMatchingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayRemoveFirstObjectMatchingTests.swift; sourceTree = "<group>"; };
@@ -55,7 +55,9 @@
 		7EB409C2251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionalAssignmentOperatorTests.swift; sourceTree = "<group>"; };
 		7EB409CA25135C7400FDA4F0 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		7EB409CB25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalIsNilOrEmptyTests.swift; sourceTree = "<group>"; };
+		A2D5DD0C029C536708F0C7BC /* Pods-NiceThingsMacOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsMacOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-NiceThingsMacOS_Example/Pods-NiceThingsMacOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AD5207889CDCE168726298C5 /* NiceThings.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NiceThings.podspec; path = ../NiceThings.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5F85132D023FEBD066AA63E /* libPods-NiceThingsMacOS_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NiceThingsMacOS_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF11B9766FCB6FCED15E9931 /* Pods_NiceThings_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceThings_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37EC701E077C66CC530581E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FC87B1EAB9C762B975D9369B /* Pods-NiceThings_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThings_Example.release.xcconfig"; path = "Target Support Files/Pods-NiceThings_Example/Pods-NiceThings_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,7 +136,6 @@
 				7EB409CB25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift */,
 				7EB409BF251255DE00FDA4F0 /* SwerlTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
-				7EB409BC251255DD00FDA4F0 /* NiceThings_Tests-Bridging-Header.h */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -165,6 +166,8 @@
 				FC87B1EAB9C762B975D9369B /* Pods-NiceThings_Example.release.xcconfig */,
 				255B254AA8C93BE4461056AA /* Pods-NiceThings_Tests.debug.xcconfig */,
 				5047F7EF7D7BDBC3DBA00FCD /* Pods-NiceThings_Tests.release.xcconfig */,
+				A2D5DD0C029C536708F0C7BC /* Pods-NiceThingsMacOS_Example.debug.xcconfig */,
+				2FD9CD97E1BC89239677AB51 /* Pods-NiceThingsMacOS_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			children = (
 				3554F4B2AFAC689DBA709AC2 /* Pods_NiceThings_Example.framework */,
 				BF11B9766FCB6FCED15E9931 /* Pods_NiceThings_Tests.framework */,
+				B5F85132D023FEBD066AA63E /* libPods-NiceThingsMacOS_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -227,7 +231,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -487,6 +491,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -537,6 +542,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -592,7 +598,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Tests/NiceThings_Tests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThings_Example.app/NiceThings_Example";
@@ -612,7 +617,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Tests/NiceThings_Tests-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThings_Example.app/NiceThings_Example";
 			};
