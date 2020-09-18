@@ -1,6 +1,6 @@
 included: # paths to include during linting. `--path` is ignored if present.
   - ../NiceThings/Classes
-  - NiceThings_ExampleTests
+  - Tests
 
 disabled_rules: # rule identifiers to exclude from running
   - line_length

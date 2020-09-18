@@ -74,12 +74,17 @@ print(val1 as Any)
 var val2: String? = "Foo"
 val2 ??= "Bar"
 print(val2 as Any)
-Optional("Foo")
+//Optional("Foo")
 
 var val3: Double? = 3.14
 val3 ??= nil
 print(val3 as Any)
-Optional(3.1400000000000001)
+//Optional(3.1400000000000001)
+
+var val4: Int?
+val4 ??= 1 ??= 2 ??= 3 ??= 4 ??= nil
+print(val4 as Any)
+//Optional(1)
 ```
 
 #### DictionaryMapToDictionary

@@ -7,9 +7,11 @@
 
 import Foundation
 
-infix operator ??=
-public func ??=<T> (lhs: inout T?, rhs: @autoclosure () -> T?) {
+infix operator ??= : AssignmentPrecedence
+@discardableResult
+public func ??=<T> (lhs: inout T?, rhs: @autoclosure () -> T?) -> T? {
     if lhs == nil {
         lhs = rhs()
     }
+    return lhs
 }
