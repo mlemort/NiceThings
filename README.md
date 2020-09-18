@@ -14,6 +14,8 @@ There are test files under the [Tests](https://github.com/mlemort/NiceThings/tre
 ## Requirements
 
 - iOS 10.3
+- macOS 10.15
+- tvOS 13.3
 - Swift 5
 
 ## Installation
