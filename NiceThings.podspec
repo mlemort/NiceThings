@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NiceThings'
-  s.version          = '1.1.1'
+  s.version          = '1.2.0'
   s.summary          = 'The pod NiceThings compile cool features i wish i could see natively in the Swift langage.'
 
 # This description is used to generate tags and improve search results.
