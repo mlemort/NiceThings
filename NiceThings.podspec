@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NiceThings'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'The pod NiceThings compile cool features i wish i could see natively in the Swift langage.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,8 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.3'
+  s.macos.deployment_target = '10.15'
+  s.tvos.deployment_target = '13.3'
   s.swift_version = '5.0'
 
   # s.resource_bundles = {

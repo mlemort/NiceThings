@@ -7,19 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00F81F5AA88CC326B29E2D72 /* Pods_NiceThingsMacOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA4348E638E206B5E105BDE /* Pods_NiceThingsMacOS_Example.framework */; };
+		47C778081F3FF612E4B54E72 /* Pods_NiceThingsIOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FBE8ECEB84BB2630459352 /* Pods_NiceThingsIOS_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		7BECBF533551B96163376A1C /* Pods_NiceThingsMacOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4463978EC1A5F48E8B31B9 /* Pods_NiceThingsMacOS_Tests.framework */; };
 		7EB409C3251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409BD251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift */; };
 		7EB409C5251255DE00FDA4F0 /* SwerlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409BF251255DE00FDA4F0 /* SwerlTests.swift */; };
 		7EB409C6251255DE00FDA4F0 /* ArrayRemoveFirstObjectMatchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C0251255DE00FDA4F0 /* ArrayRemoveFirstObjectMatchingTests.swift */; };
 		7EB409C7251255DE00FDA4F0 /* CollectionSafeSubscriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C1251255DE00FDA4F0 /* CollectionSafeSubscriptTests.swift */; };
 		7EB409C8251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C2251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift */; };
 		7EB409CC25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409CB25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift */; };
-		7F258ACF0866C323953EC98E /* Pods_NiceThings_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3554F4B2AFAC689DBA709AC2 /* Pods_NiceThings_Example.framework */; };
-		BE8F128403CFC3D50D8628AB /* Pods_NiceThings_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF11B9766FCB6FCED15E9931 /* Pods_NiceThings_Tests.framework */; };
+		7EB409F62514909A00FDA4F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409F52514909A00FDA4F0 /* AppDelegate.swift */; };
+		7EB409F82514909A00FDA4F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409F72514909A00FDA4F0 /* ContentView.swift */; };
+		7EB409FA2514909B00FDA4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB409F92514909B00FDA4F0 /* Assets.xcassets */; };
+		7EB409FD2514909B00FDA4F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB409FC2514909B00FDA4F0 /* Preview Assets.xcassets */; };
+		7EB40A002514909B00FDA4F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB409FE2514909B00FDA4F0 /* Main.storyboard */; };
+		7EB40A14251490ED00FDA4F0 /* ArrayRemoveFirstObjectMatchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C0251255DE00FDA4F0 /* ArrayRemoveFirstObjectMatchingTests.swift */; };
+		7EB40A15251490ED00FDA4F0 /* CollectionSafeSubscriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C1251255DE00FDA4F0 /* CollectionSafeSubscriptTests.swift */; };
+		7EB40A16251490ED00FDA4F0 /* ConditionalAssignmentOperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C2251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift */; };
+		7EB40A17251490ED00FDA4F0 /* DictionaryMapToDictionayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409BD251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift */; };
+		7EB40A18251490ED00FDA4F0 /* OptionalIsNilOrEmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409CB25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift */; };
+		7EB40A19251490ED00FDA4F0 /* SwerlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409BF251255DE00FDA4F0 /* SwerlTests.swift */; };
+		7EB40A2125149A9600FDA4F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB40A2025149A9600FDA4F0 /* AppDelegate.swift */; };
+		7EB40A2325149A9600FDA4F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB40A2225149A9600FDA4F0 /* ContentView.swift */; };
+		7EB40A2525149A9700FDA4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB40A2425149A9700FDA4F0 /* Assets.xcassets */; };
+		7EB40A2825149A9700FDA4F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB40A2725149A9700FDA4F0 /* Preview Assets.xcassets */; };
+		7EB40A2B25149A9700FDA4F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB40A2925149A9700FDA4F0 /* LaunchScreen.storyboard */; };
+		7EB40A3E25149ACD00FDA4F0 /* ArrayRemoveFirstObjectMatchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C0251255DE00FDA4F0 /* ArrayRemoveFirstObjectMatchingTests.swift */; };
+		7EB40A3F25149ACD00FDA4F0 /* CollectionSafeSubscriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C1251255DE00FDA4F0 /* CollectionSafeSubscriptTests.swift */; };
+		7EB40A4025149ACD00FDA4F0 /* ConditionalAssignmentOperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409C2251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift */; };
+		7EB40A4125149ACD00FDA4F0 /* DictionaryMapToDictionayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409BD251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift */; };
+		7EB40A4225149ACD00FDA4F0 /* OptionalIsNilOrEmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409CB25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift */; };
+		7EB40A4325149ACD00FDA4F0 /* SwerlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB409BF251255DE00FDA4F0 /* SwerlTests.swift */; };
+		7EB40A472514A7CB00FDA4F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EB40A462514A7CB00FDA4F0 /* Default-568h@2x.png */; };
+		88D3791F2A6E328786CE093E /* Pods_NiceThingsIOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9ADDFDBECF13A4045587CD /* Pods_NiceThingsIOS_Tests.framework */; };
+		9FA170FEDAD604EF606793B5 /* Pods_NiceThingsTvOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F56ADFD4F56BB08B2DCB6C /* Pods_NiceThingsTvOS_Example.framework */; };
+		CFC640FFC2D2D7AF94F5223F /* Pods_NiceThingsTvOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAD03DB0CEB81618F7FB6A5 /* Pods_NiceThingsTvOS_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,24 +57,45 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = NiceThings;
 		};
+		7EB40A082514909B00FDA4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EB409F22514909A00FDA4F0;
+			remoteInfo = NiceThingsMacOS_Example;
+		};
+		7EB40A3225149A9800FDA4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EB40A1D25149A9600FDA4F0;
+			remoteInfo = NiceThingsTvOS_Example;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04D1280E4A1DFECC300D3591 /* Pods-NiceThingsMacOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsMacOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-NiceThingsMacOS_Example/Pods-NiceThingsMacOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0AAD03DB0CEB81618F7FB6A5 /* Pods_NiceThingsTvOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceThingsTvOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		194F2557DF2FF3C42F3C64F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		255B254AA8C93BE4461056AA /* Pods-NiceThings_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThings_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NiceThings_Tests/Pods-NiceThings_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3554F4B2AFAC689DBA709AC2 /* Pods_NiceThings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceThings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F0641086E7CC99D835C5881 /* Pods-NiceThings_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThings_Example.debug.xcconfig"; path = "Target Support Files/Pods-NiceThings_Example/Pods-NiceThings_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5047F7EF7D7BDBC3DBA00FCD /* Pods-NiceThings_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThings_Tests.release.xcconfig"; path = "Target Support Files/Pods-NiceThings_Tests/Pods-NiceThings_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* NiceThings_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceThings_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D886D0BFA53E41E626C73B /* Pods-NiceThingsTvOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsTvOS_Example.release.xcconfig"; path = "Target Support Files/Pods-NiceThingsTvOS_Example/Pods-NiceThingsTvOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2904C13738E8D267B6053223 /* Pods-NiceThingsMacOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsMacOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NiceThingsMacOS_Tests/Pods-NiceThingsMacOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FEBF0F37CB43081349F1382 /* Pods-NiceThingsIOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsIOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-NiceThingsIOS_Tests/Pods-NiceThingsIOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		34F56ADFD4F56BB08B2DCB6C /* Pods_NiceThingsTvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceThingsTvOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A40B45A500C03E0BB2AB5EC /* Pods-NiceThingsTvOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsTvOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-NiceThingsTvOS_Example/Pods-NiceThingsTvOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3D4463978EC1A5F48E8B31B9 /* Pods_NiceThingsMacOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceThingsMacOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8C7C1AB610B1A85AC7DB28 /* Pods-NiceThingsMacOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsMacOS_Example.release.xcconfig"; path = "Target Support Files/Pods-NiceThingsMacOS_Example/Pods-NiceThingsMacOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		45D857EDDD070B9E00F5CEF4 /* Pods-NiceThingsTvOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsTvOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NiceThingsTvOS_Tests/Pods-NiceThingsTvOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EA4348E638E206B5E105BDE /* Pods_NiceThingsMacOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceThingsMacOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* NiceThingsIOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceThingsIOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* NiceThings_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceThings_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* NiceThingsIOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceThingsIOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EB409BC251255DD00FDA4F0 /* NiceThings_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NiceThings_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		78F0C7DCCEEAB7E9FD91564D /* Pods-NiceThingsTvOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsTvOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-NiceThingsTvOS_Tests/Pods-NiceThingsTvOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7EB409BD251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryMapToDictionayTests.swift; sourceTree = "<group>"; };
 		7EB409BF251255DE00FDA4F0 /* SwerlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwerlTests.swift; sourceTree = "<group>"; };
 		7EB409C0251255DE00FDA4F0 /* ArrayRemoveFirstObjectMatchingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayRemoveFirstObjectMatchingTests.swift; sourceTree = "<group>"; };
@@ -55,10 +103,38 @@
 		7EB409C2251255DE00FDA4F0 /* ConditionalAssignmentOperatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionalAssignmentOperatorTests.swift; sourceTree = "<group>"; };
 		7EB409CA25135C7400FDA4F0 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		7EB409CB25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalIsNilOrEmptyTests.swift; sourceTree = "<group>"; };
+		7EB409F32514909A00FDA4F0 /* NiceThingsMacOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceThingsMacOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB409F52514909A00FDA4F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EB409F72514909A00FDA4F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7EB409F92514909B00FDA4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EB409FC2514909B00FDA4F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EB409FF2514909B00FDA4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EB40A012514909B00FDA4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB40A022514909B00FDA4F0 /* NiceThingsMacOS_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NiceThingsMacOS_Example.entitlements; sourceTree = "<group>"; };
+		7EB40A072514909B00FDA4F0 /* NiceThingsMacOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceThingsMacOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB40A0D2514909B00FDA4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB40A1E25149A9600FDA4F0 /* NiceThingsTvOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceThingsTvOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB40A2025149A9600FDA4F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EB40A2225149A9600FDA4F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7EB40A2425149A9700FDA4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EB40A2725149A9700FDA4F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EB40A2A25149A9700FDA4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EB40A2C25149A9700FDA4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB40A3125149A9800FDA4F0 /* NiceThingsTvOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceThingsTvOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB40A3725149A9800FDA4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB40A462514A7CB00FDA4F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		82063E195ACEC3C186B62ABC /* Pods-NiceThings_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThings_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NiceThings_Tests/Pods-NiceThings_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		89FBE8ECEB84BB2630459352 /* Pods_NiceThingsIOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceThingsIOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C7C2024FD3FE451C712FCC /* Pods-NiceThingsIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsIOS_Example.release.xcconfig"; path = "Target Support Files/Pods-NiceThingsIOS_Example/Pods-NiceThingsIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9611D13AD65DCF549A79C39D /* Pods-NiceThingsMacOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsMacOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-NiceThingsMacOS_Tests/Pods-NiceThingsMacOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9BEBF0AB904E49EDE822D824 /* Pods-NiceThingsIOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsIOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NiceThingsIOS_Tests/Pods-NiceThingsIOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FA3DBD10047DCA89440DB06 /* Pods-NiceThingsIOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThingsIOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-NiceThingsIOS_Example/Pods-NiceThingsIOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A5135DAA2EACA1A0CF0796FD /* Pods-NiceThings_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThings_Example.debug.xcconfig"; path = "Target Support Files/Pods-NiceThings_Example/Pods-NiceThings_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AD5207889CDCE168726298C5 /* NiceThings.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NiceThings.podspec; path = ../NiceThings.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF11B9766FCB6FCED15E9931 /* Pods_NiceThings_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceThings_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37EC701E077C66CC530581E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FC87B1EAB9C762B975D9369B /* Pods-NiceThings_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThings_Example.release.xcconfig"; path = "Target Support Files/Pods-NiceThings_Example/Pods-NiceThings_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4DD34E497F72168B5151330 /* Pods-NiceThings_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThings_Example.release.xcconfig"; path = "Target Support Files/Pods-NiceThings_Example/Pods-NiceThings_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F9DA9711896BE5177E40904D /* Pods-NiceThings_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceThings_Tests.release.xcconfig"; path = "Target Support Files/Pods-NiceThings_Tests/Pods-NiceThings_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FE9ADDFDBECF13A4045587CD /* Pods_NiceThingsIOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceThingsIOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F258ACF0866C323953EC98E /* Pods_NiceThings_Example.framework in Frameworks */,
+				47C778081F3FF612E4B54E72 /* Pods_NiceThingsIOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,37 +150,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8F128403CFC3D50D8628AB /* Pods_NiceThings_Tests.framework in Frameworks */,
+				88D3791F2A6E328786CE093E /* Pods_NiceThingsIOS_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB409F02514909A00FDA4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F81F5AA88CC326B29E2D72 /* Pods_NiceThingsMacOS_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB40A042514909B00FDA4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BECBF533551B96163376A1C /* Pods_NiceThingsMacOS_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB40A1B25149A9600FDA4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA170FEDAD604EF606793B5 /* Pods_NiceThingsTvOS_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB40A2E25149A9800FDA4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC640FFC2D2D7AF94F5223F /* Pods_NiceThingsTvOS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22E4FC805BEFB36C51692294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4348E638E206B5E105BDE /* Pods_NiceThingsMacOS_Example.framework */,
+				3D4463978EC1A5F48E8B31B9 /* Pods_NiceThingsMacOS_Tests.framework */,
+				34F56ADFD4F56BB08B2DCB6C /* Pods_NiceThingsTvOS_Example.framework */,
+				0AAD03DB0CEB81618F7FB6A5 /* Pods_NiceThingsTvOS_Tests.framework */,
+				89FBE8ECEB84BB2630459352 /* Pods_NiceThingsIOS_Example.framework */,
+				FE9ADDFDBECF13A4045587CD /* Pods_NiceThingsIOS_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for NiceThings */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				607FACD21AFB9204008FA782 /* NiceThingsIOS_Example */,
+				7EB40A452514A6E900FDA4F0 /* NiceThingsIOS_Tests */,
+				7EB409F42514909A00FDA4F0 /* NiceThingsMacOS_Example */,
+				7EB40A0A2514909B00FDA4F0 /* NiceThingsMacOS_Tests */,
+				7EB40A1F25149A9600FDA4F0 /* NiceThingsTvOS_Example */,
+				7EB40A3425149A9800FDA4F0 /* NiceThingsTvOS_Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				C20CEFADB1CA6CA7C6A58EB0 /* Pods */,
-				DE1F9D9D6F2A846DB770ED50 /* Frameworks */,
+				22E4FC805BEFB36C51692294 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* NiceThings_Example.app */,
-				607FACE51AFB9204008FA782 /* NiceThings_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* NiceThingsIOS_Example.app */,
+				607FACE51AFB9204008FA782 /* NiceThingsIOS_Tests.xctest */,
+				7EB409F32514909A00FDA4F0 /* NiceThingsMacOS_Example.app */,
+				7EB40A072514909B00FDA4F0 /* NiceThingsMacOS_Tests.xctest */,
+				7EB40A1E25149A9600FDA4F0 /* NiceThingsTvOS_Example.app */,
+				7EB40A3125149A9800FDA4F0 /* NiceThingsTvOS_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for NiceThings */ = {
+		607FACD21AFB9204008FA782 /* NiceThingsIOS_Example */ = {
 			isa = PBXGroup;
 			children = (
+				7EB40A462514A7CB00FDA4F0 /* Default-568h@2x.png */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -112,8 +243,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for NiceThings";
-			path = NiceThings;
+			path = NiceThingsIOS_Example;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -133,18 +263,8 @@
 				7EB409BD251255DE00FDA4F0 /* DictionaryMapToDictionayTests.swift */,
 				7EB409CB25135DD700FDA4F0 /* OptionalIsNilOrEmptyTests.swift */,
 				7EB409BF251255DE00FDA4F0 /* SwerlTests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-				7EB409BC251255DD00FDA4F0 /* NiceThings_Tests-Bridging-Header.h */,
 			);
 			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
@@ -158,67 +278,215 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		7EB409F42514909A00FDA4F0 /* NiceThingsMacOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7EB409F52514909A00FDA4F0 /* AppDelegate.swift */,
+				7EB409F72514909A00FDA4F0 /* ContentView.swift */,
+				7EB409F92514909B00FDA4F0 /* Assets.xcassets */,
+				7EB409FE2514909B00FDA4F0 /* Main.storyboard */,
+				7EB40A012514909B00FDA4F0 /* Info.plist */,
+				7EB40A022514909B00FDA4F0 /* NiceThingsMacOS_Example.entitlements */,
+				7EB409FB2514909B00FDA4F0 /* Preview Content */,
+			);
+			path = NiceThingsMacOS_Example;
+			sourceTree = "<group>";
+		};
+		7EB409FB2514909B00FDA4F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7EB409FC2514909B00FDA4F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7EB40A0A2514909B00FDA4F0 /* NiceThingsMacOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7EB40A0D2514909B00FDA4F0 /* Info.plist */,
+			);
+			path = NiceThingsMacOS_Tests;
+			sourceTree = "<group>";
+		};
+		7EB40A1F25149A9600FDA4F0 /* NiceThingsTvOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7EB40A2025149A9600FDA4F0 /* AppDelegate.swift */,
+				7EB40A2225149A9600FDA4F0 /* ContentView.swift */,
+				7EB40A2425149A9700FDA4F0 /* Assets.xcassets */,
+				7EB40A2925149A9700FDA4F0 /* LaunchScreen.storyboard */,
+				7EB40A2C25149A9700FDA4F0 /* Info.plist */,
+				7EB40A2625149A9700FDA4F0 /* Preview Content */,
+			);
+			path = NiceThingsTvOS_Example;
+			sourceTree = "<group>";
+		};
+		7EB40A2625149A9700FDA4F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7EB40A2725149A9700FDA4F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7EB40A3425149A9800FDA4F0 /* NiceThingsTvOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7EB40A3725149A9800FDA4F0 /* Info.plist */,
+			);
+			path = NiceThingsTvOS_Tests;
+			sourceTree = "<group>";
+		};
+		7EB40A452514A6E900FDA4F0 /* NiceThingsIOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				607FACEA1AFB9204008FA782 /* Info.plist */,
+			);
+			path = NiceThingsIOS_Tests;
+			sourceTree = "<group>";
+		};
 		C20CEFADB1CA6CA7C6A58EB0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4F0641086E7CC99D835C5881 /* Pods-NiceThings_Example.debug.xcconfig */,
-				FC87B1EAB9C762B975D9369B /* Pods-NiceThings_Example.release.xcconfig */,
-				255B254AA8C93BE4461056AA /* Pods-NiceThings_Tests.debug.xcconfig */,
-				5047F7EF7D7BDBC3DBA00FCD /* Pods-NiceThings_Tests.release.xcconfig */,
+				04D1280E4A1DFECC300D3591 /* Pods-NiceThingsMacOS_Example.debug.xcconfig */,
+				3D8C7C1AB610B1A85AC7DB28 /* Pods-NiceThingsMacOS_Example.release.xcconfig */,
+				2904C13738E8D267B6053223 /* Pods-NiceThingsMacOS_Tests.debug.xcconfig */,
+				9611D13AD65DCF549A79C39D /* Pods-NiceThingsMacOS_Tests.release.xcconfig */,
+				3A40B45A500C03E0BB2AB5EC /* Pods-NiceThingsTvOS_Example.debug.xcconfig */,
+				23D886D0BFA53E41E626C73B /* Pods-NiceThingsTvOS_Example.release.xcconfig */,
+				45D857EDDD070B9E00F5CEF4 /* Pods-NiceThingsTvOS_Tests.debug.xcconfig */,
+				78F0C7DCCEEAB7E9FD91564D /* Pods-NiceThingsTvOS_Tests.release.xcconfig */,
+				A5135DAA2EACA1A0CF0796FD /* Pods-NiceThings_Example.debug.xcconfig */,
+				F4DD34E497F72168B5151330 /* Pods-NiceThings_Example.release.xcconfig */,
+				82063E195ACEC3C186B62ABC /* Pods-NiceThings_Tests.debug.xcconfig */,
+				F9DA9711896BE5177E40904D /* Pods-NiceThings_Tests.release.xcconfig */,
+				9FA3DBD10047DCA89440DB06 /* Pods-NiceThingsIOS_Example.debug.xcconfig */,
+				95C7C2024FD3FE451C712FCC /* Pods-NiceThingsIOS_Example.release.xcconfig */,
+				9BEBF0AB904E49EDE822D824 /* Pods-NiceThingsIOS_Tests.debug.xcconfig */,
+				2FEBF0F37CB43081349F1382 /* Pods-NiceThingsIOS_Tests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		DE1F9D9D6F2A846DB770ED50 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3554F4B2AFAC689DBA709AC2 /* Pods_NiceThings_Example.framework */,
-				BF11B9766FCB6FCED15E9931 /* Pods_NiceThings_Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* NiceThings_Example */ = {
+		607FACCF1AFB9204008FA782 /* NiceThingsIOS_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NiceThings_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NiceThingsIOS_Example" */;
 			buildPhases = (
-				166F14B01C2D372C12911447 /* [CP] Check Pods Manifest.lock */,
+				81BD9A4EAC9216229FB3E34E /* [CP] Check Pods Manifest.lock */,
 				7EB409C9251350F900FDA4F0 /* SwiftLint */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				167C0F35B85B53054D16D642 /* [CP] Embed Pods Frameworks */,
+				1B61A8909984BEF159EE2472 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NiceThings_Example;
+			name = NiceThingsIOS_Example;
 			productName = NiceThings;
-			productReference = 607FACD01AFB9204008FA782 /* NiceThings_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* NiceThingsIOS_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* NiceThings_Tests */ = {
+		607FACE41AFB9204008FA782 /* NiceThingsIOS_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NiceThings_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NiceThingsIOS_Tests" */;
 			buildPhases = (
-				E3CA8533B4BFE199C2F8753D /* [CP] Check Pods Manifest.lock */,
+				220196CA67C65A938ADAB8F8 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				AD4B86D640445FCA60FAC471 /* [CP] Embed Pods Frameworks */,
+				1F45BDD062E13F59738887D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = NiceThings_Tests;
+			name = NiceThingsIOS_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* NiceThings_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* NiceThingsIOS_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EB409F22514909A00FDA4F0 /* NiceThingsMacOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB40A0E2514909B00FDA4F0 /* Build configuration list for PBXNativeTarget "NiceThingsMacOS_Example" */;
+			buildPhases = (
+				5D3F205F4E87CCCD821C8FF9 /* [CP] Check Pods Manifest.lock */,
+				7EB409EF2514909A00FDA4F0 /* Sources */,
+				7EB409F02514909A00FDA4F0 /* Frameworks */,
+				7EB409F12514909A00FDA4F0 /* Resources */,
+				3F5E9CFF71610F0A2DA0C098 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiceThingsMacOS_Example;
+			productName = NiceThingsMacOS_Example;
+			productReference = 7EB409F32514909A00FDA4F0 /* NiceThingsMacOS_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EB40A062514909B00FDA4F0 /* NiceThingsMacOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB40A112514909B00FDA4F0 /* Build configuration list for PBXNativeTarget "NiceThingsMacOS_Tests" */;
+			buildPhases = (
+				B3E465B14EA814FEED2E0E5D /* [CP] Check Pods Manifest.lock */,
+				7EB40A032514909B00FDA4F0 /* Sources */,
+				7EB40A042514909B00FDA4F0 /* Frameworks */,
+				7EB40A052514909B00FDA4F0 /* Resources */,
+				C39F5F61A477630633FEF940 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EB40A092514909B00FDA4F0 /* PBXTargetDependency */,
+			);
+			name = NiceThingsMacOS_Tests;
+			productName = NiceThingsMacOS_ExampleTests;
+			productReference = 7EB40A072514909B00FDA4F0 /* NiceThingsMacOS_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EB40A1D25149A9600FDA4F0 /* NiceThingsTvOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB40A3C25149A9800FDA4F0 /* Build configuration list for PBXNativeTarget "NiceThingsTvOS_Example" */;
+			buildPhases = (
+				387BEA5C4FA4205A77CE60B7 /* [CP] Check Pods Manifest.lock */,
+				7EB40A1A25149A9600FDA4F0 /* Sources */,
+				7EB40A1B25149A9600FDA4F0 /* Frameworks */,
+				7EB40A1C25149A9600FDA4F0 /* Resources */,
+				D4DA20E941B8BD52B8FF0018 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiceThingsTvOS_Example;
+			productName = NiceThingsTvOS_Example;
+			productReference = 7EB40A1E25149A9600FDA4F0 /* NiceThingsTvOS_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EB40A3025149A9800FDA4F0 /* NiceThingsTvOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB40A3D25149A9800FDA4F0 /* Build configuration list for PBXNativeTarget "NiceThingsTvOS_Tests" */;
+			buildPhases = (
+				5DD61561DDB94911B4931B6D /* [CP] Check Pods Manifest.lock */,
+				7EB40A2D25149A9800FDA4F0 /* Sources */,
+				7EB40A2E25149A9800FDA4F0 /* Frameworks */,
+				7EB40A2F25149A9800FDA4F0 /* Resources */,
+				D0BF8F77B7D7CD39448BF2A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EB40A3325149A9800FDA4F0 /* PBXTargetDependency */,
+			);
+			name = NiceThingsTvOS_Tests;
+			productName = NiceThingsTvOS_ExampleTests;
+			productReference = 7EB40A3125149A9800FDA4F0 /* NiceThingsTvOS_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -227,18 +495,42 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 87DZXX9RM7;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 87DZXX9RM7;
 						LastSwiftMigration = 1170;
 						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					7EB409F22514909A00FDA4F0 = {
+						CreatedOnToolsVersion = 11.7;
+						DevelopmentTeam = 87DZXX9RM7;
+						ProvisioningStyle = Automatic;
+					};
+					7EB40A062514909B00FDA4F0 = {
+						CreatedOnToolsVersion = 11.7;
+						DevelopmentTeam = 87DZXX9RM7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EB409F22514909A00FDA4F0;
+					};
+					7EB40A1D25149A9600FDA4F0 = {
+						CreatedOnToolsVersion = 11.7;
+						DevelopmentTeam = 87DZXX9RM7;
+						ProvisioningStyle = Automatic;
+					};
+					7EB40A3025149A9800FDA4F0 = {
+						CreatedOnToolsVersion = 11.7;
+						DevelopmentTeam = 87DZXX9RM7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EB40A1D25149A9600FDA4F0;
 					};
 				};
 			};
@@ -256,8 +548,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* NiceThings_Example */,
-				607FACE41AFB9204008FA782 /* NiceThings_Tests */,
+				607FACCF1AFB9204008FA782 /* NiceThingsIOS_Example */,
+				607FACE41AFB9204008FA782 /* NiceThingsIOS_Tests */,
+				7EB409F22514909A00FDA4F0 /* NiceThingsMacOS_Example */,
+				7EB40A062514909B00FDA4F0 /* NiceThingsMacOS_Tests */,
+				7EB40A1D25149A9600FDA4F0 /* NiceThingsTvOS_Example */,
+				7EB40A3025149A9800FDA4F0 /* NiceThingsTvOS_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,6 +564,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				7EB40A472514A7CB00FDA4F0 /* Default-568h@2x.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -280,10 +577,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7EB409F12514909A00FDA4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB40A002514909B00FDA4F0 /* Main.storyboard in Resources */,
+				7EB409FD2514909B00FDA4F0 /* Preview Assets.xcassets in Resources */,
+				7EB409FA2514909B00FDA4F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB40A052514909B00FDA4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB40A1C25149A9600FDA4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB40A2B25149A9700FDA4F0 /* LaunchScreen.storyboard in Resources */,
+				7EB40A2825149A9700FDA4F0 /* Preview Assets.xcassets in Resources */,
+				7EB40A2525149A9700FDA4F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB40A2F25149A9800FDA4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		166F14B01C2D372C12911447 /* [CP] Check Pods Manifest.lock */ = {
+		1B61A8909984BEF159EE2472 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceThingsIOS_Example/Pods-NiceThingsIOS_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NiceThings-iOS/NiceThings.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NiceThings.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceThingsIOS_Example/Pods-NiceThingsIOS_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F45BDD062E13F59738887D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceThingsIOS_Tests/Pods-NiceThingsIOS_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble-iOS/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick-iOS/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceThingsIOS_Tests/Pods-NiceThingsIOS_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		220196CA67C65A938ADAB8F8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,21 +667,43 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NiceThings_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NiceThingsIOS_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		167C0F35B85B53054D16D642 /* [CP] Embed Pods Frameworks */ = {
+		387BEA5C4FA4205A77CE60B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceThingsTvOS_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F5E9CFF71610F0A2DA0C098 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NiceThings_Example/Pods-NiceThings_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/NiceThings/NiceThings.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-NiceThingsMacOS_Example/Pods-NiceThingsMacOS_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NiceThings-macOS/NiceThings.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -320,7 +711,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceThings_Example/Pods-NiceThings_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceThingsMacOS_Example/Pods-NiceThingsMacOS_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D3F205F4E87CCCD821C8FF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceThingsMacOS_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD61561DDB94911B4931B6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceThingsTvOS_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7EB409C9251350F900FDA4F0 /* SwiftLint */ = {
@@ -341,27 +776,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
-		AD4B86D640445FCA60FAC471 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NiceThings_Tests/Pods-NiceThings_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceThings_Tests/Pods-NiceThings_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E3CA8533B4BFE199C2F8753D /* [CP] Check Pods Manifest.lock */ = {
+		81BD9A4EAC9216229FB3E34E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -376,11 +791,91 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NiceThings_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NiceThingsIOS_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3E465B14EA814FEED2E0E5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceThingsMacOS_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C39F5F61A477630633FEF940 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceThingsMacOS_Tests/Pods-NiceThingsMacOS_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble-macOS/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick-macOS/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceThingsMacOS_Tests/Pods-NiceThingsMacOS_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0BF8F77B7D7CD39448BF2A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceThingsTvOS_Tests/Pods-NiceThingsTvOS_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble-tvOS/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick-tvOS/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceThingsTvOS_Tests/Pods-NiceThingsTvOS_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4DA20E941B8BD52B8FF0018 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceThingsTvOS_Example/Pods-NiceThingsTvOS_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NiceThings-tvOS/NiceThings.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NiceThings.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceThingsTvOS_Example/Pods-NiceThingsTvOS_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -408,13 +903,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7EB409EF2514909A00FDA4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB409F82514909A00FDA4F0 /* ContentView.swift in Sources */,
+				7EB409F62514909A00FDA4F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB40A032514909B00FDA4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB40A17251490ED00FDA4F0 /* DictionaryMapToDictionayTests.swift in Sources */,
+				7EB40A16251490ED00FDA4F0 /* ConditionalAssignmentOperatorTests.swift in Sources */,
+				7EB40A15251490ED00FDA4F0 /* CollectionSafeSubscriptTests.swift in Sources */,
+				7EB40A19251490ED00FDA4F0 /* SwerlTests.swift in Sources */,
+				7EB40A14251490ED00FDA4F0 /* ArrayRemoveFirstObjectMatchingTests.swift in Sources */,
+				7EB40A18251490ED00FDA4F0 /* OptionalIsNilOrEmptyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB40A1A25149A9600FDA4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB40A2325149A9600FDA4F0 /* ContentView.swift in Sources */,
+				7EB40A2125149A9600FDA4F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB40A2D25149A9800FDA4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB40A4125149ACD00FDA4F0 /* DictionaryMapToDictionayTests.swift in Sources */,
+				7EB40A4025149ACD00FDA4F0 /* ConditionalAssignmentOperatorTests.swift in Sources */,
+				7EB40A3F25149ACD00FDA4F0 /* CollectionSafeSubscriptTests.swift in Sources */,
+				7EB40A4325149ACD00FDA4F0 /* SwerlTests.swift in Sources */,
+				7EB40A3E25149ACD00FDA4F0 /* ArrayRemoveFirstObjectMatchingTests.swift in Sources */,
+				7EB40A4225149ACD00FDA4F0 /* OptionalIsNilOrEmptyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* NiceThings_Example */;
+			target = 607FACCF1AFB9204008FA782 /* NiceThingsIOS_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		7EB40A092514909B00FDA4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EB409F22514909A00FDA4F0 /* NiceThingsMacOS_Example */;
+			targetProxy = 7EB40A082514909B00FDA4F0 /* PBXContainerItemProxy */;
+		};
+		7EB40A3325149A9800FDA4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EB40A1D25149A9600FDA4F0 /* NiceThingsTvOS_Example */;
+			targetProxy = 7EB40A3225149A9800FDA4F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -433,6 +982,22 @@
 				607FACDF1AFB9204008FA782 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7EB409FE2514909B00FDA4F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EB409FF2514909B00FDA4F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EB40A2925149A9700FDA4F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EB40A2A25149A9700FDA4F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -487,6 +1052,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -537,6 +1103,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -547,10 +1114,11 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F0641086E7CC99D835C5881 /* Pods-NiceThings_Example.debug.xcconfig */;
+			baseConfigurationReference = 9FA3DBD10047DCA89440DB06 /* Pods-NiceThingsIOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NiceThings/Info.plist;
+				DEVELOPMENT_TEAM = 87DZXX9RM7;
+				INFOPLIST_FILE = "$(SRCROOT)/NiceThingsIOS_Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -562,10 +1130,11 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC87B1EAB9C762B975D9369B /* Pods-NiceThings_Example.release.xcconfig */;
+			baseConfigurationReference = 95C7C2024FD3FE451C712FCC /* Pods-NiceThingsIOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NiceThings/Info.plist;
+				DEVELOPMENT_TEAM = 87DZXX9RM7;
+				INFOPLIST_FILE = "$(SRCROOT)/NiceThingsIOS_Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -577,9 +1146,10 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 255B254AA8C93BE4461056AA /* Pods-NiceThings_Tests.debug.xcconfig */;
+			baseConfigurationReference = 9BEBF0AB904E49EDE822D824 /* Pods-NiceThingsIOS_Tests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 87DZXX9RM7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -588,33 +1158,266 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = NiceThingsIOS_Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Tests/NiceThings_Tests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThings_Example.app/NiceThings_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThingsIOS_Example.app/NiceThingsIOS_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5047F7EF7D7BDBC3DBA00FCD /* Pods-NiceThings_Tests.release.xcconfig */;
+			baseConfigurationReference = 2FEBF0F37CB43081349F1382 /* Pods-NiceThingsIOS_Tests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 87DZXX9RM7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = NiceThingsIOS_Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Tests/NiceThings_Tests-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThings_Example.app/NiceThings_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThingsIOS_Example.app/NiceThingsIOS_Example";
+			};
+			name = Release;
+		};
+		7EB40A0F2514909B00FDA4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04D1280E4A1DFECC300D3591 /* Pods-NiceThingsMacOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = NiceThingsMacOS_Example/NiceThingsMacOS_Example.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"NiceThingsMacOS_Example/Preview Content\"";
+				DEVELOPMENT_TEAM = 87DZXX9RM7;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NiceThingsMacOS_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NiceThings-Example.NiceThingsMacOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7EB40A102514909B00FDA4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D8C7C1AB610B1A85AC7DB28 /* Pods-NiceThingsMacOS_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = NiceThingsMacOS_Example/NiceThingsMacOS_Example.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NiceThingsMacOS_Example/Preview Content\"";
+				DEVELOPMENT_TEAM = 87DZXX9RM7;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NiceThingsMacOS_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NiceThings-Example.NiceThingsMacOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7EB40A122514909B00FDA4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2904C13738E8D267B6053223 /* Pods-NiceThingsMacOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 87DZXX9RM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NiceThingsMacOS_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NiceThings-Example.NiceThingsMacOS-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThingsMacOS_Example.app/Contents/MacOS/NiceThingsMacOS_Example";
+			};
+			name = Debug;
+		};
+		7EB40A132514909B00FDA4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9611D13AD65DCF549A79C39D /* Pods-NiceThingsMacOS_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 87DZXX9RM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NiceThingsMacOS_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NiceThings-Example.NiceThingsMacOS-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThingsMacOS_Example.app/Contents/MacOS/NiceThingsMacOS_Example";
+			};
+			name = Release;
+		};
+		7EB40A3825149A9800FDA4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A40B45A500C03E0BB2AB5EC /* Pods-NiceThingsTvOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"NiceThingsTvOS_Example/Preview Content\"";
+				DEVELOPMENT_TEAM = 87DZXX9RM7;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NiceThingsTvOS_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NiceThings-Example.NiceThingsTvOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.3;
+			};
+			name = Debug;
+		};
+		7EB40A3925149A9800FDA4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D886D0BFA53E41E626C73B /* Pods-NiceThingsTvOS_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NiceThingsTvOS_Example/Preview Content\"";
+				DEVELOPMENT_TEAM = 87DZXX9RM7;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NiceThingsTvOS_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NiceThings-Example.NiceThingsTvOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.3;
+			};
+			name = Release;
+		};
+		7EB40A3A25149A9800FDA4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D857EDDD070B9E00F5CEF4 /* Pods-NiceThingsTvOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 87DZXX9RM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NiceThingsTvOS_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NiceThings-Example.NiceThingsTvOS-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThingsTvOS_Example.app/NiceThingsTvOS_Example";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		7EB40A3B25149A9800FDA4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F0C7DCCEEAB7E9FD91564D /* Pods-NiceThingsTvOS_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87DZXX9RM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NiceThingsTvOS_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NiceThings-Example.NiceThingsTvOS-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceThingsTvOS_Example.app/NiceThingsTvOS_Example";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
 			};
 			name = Release;
 		};
@@ -630,7 +1433,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NiceThings_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NiceThingsIOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -639,11 +1442,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NiceThings_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NiceThingsIOS_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB40A0E2514909B00FDA4F0 /* Build configuration list for PBXNativeTarget "NiceThingsMacOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB40A0F2514909B00FDA4F0 /* Debug */,
+				7EB40A102514909B00FDA4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB40A112514909B00FDA4F0 /* Build configuration list for PBXNativeTarget "NiceThingsMacOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB40A122514909B00FDA4F0 /* Debug */,
+				7EB40A132514909B00FDA4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB40A3C25149A9800FDA4F0 /* Build configuration list for PBXNativeTarget "NiceThingsTvOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB40A3825149A9800FDA4F0 /* Debug */,
+				7EB40A3925149A9800FDA4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB40A3D25149A9800FDA4F0 /* Build configuration list for PBXNativeTarget "NiceThingsTvOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB40A3A25149A9800FDA4F0 /* Debug */,
+				7EB40A3B25149A9800FDA4F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

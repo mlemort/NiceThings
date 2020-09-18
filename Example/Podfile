@@ -1,14 +1,41 @@
 use_frameworks!
 
-target 'NiceThings_Example' do
-  platform :ios, '10.3'
+def sharedPods
   pod 'SwiftLint', '~> 0.40'
   pod 'NiceThings', :path => '../'
+end
 
-  target 'NiceThings_Tests' do
+def sharedTestsPods
+  pod 'Quick'
+  pod 'Nimble', '9.0.0-rc.3'
+end
+
+target 'NiceThingsIOS_Example' do
+  platform :ios, '10.3'
+  sharedPods
+
+  target 'NiceThingsIOS_Tests' do
     inherit! :search_paths
+    sharedTestsPods
+  end
+end
 
-    pod 'Quick', '~> 3.0'
-    pod 'Nimble', '~> 8.1'
+target 'NiceThingsMacOS_Example' do
+  platform :osx, '10.15'
+  sharedPods
+
+  target 'NiceThingsMacOS_Tests' do
+    inherit! :search_paths
+    sharedTestsPods
+  end
+end
+
+target 'NiceThingsTvOS_Example' do
+  platform :tvos, '13.3'
+  sharedPods
+
+  target 'NiceThingsTvOS_Tests' do
+    inherit! :search_paths
+    sharedTestsPods
   end
 end

@@ -15,6 +15,6 @@
 osx_image: xcode11.6
 language: swift
 xcode_workspace: Example/NiceThings.xcworkspace # path to your xcodeproj folder
-xcode_scheme: NiceThings-Example
+xcode_scheme: NiceThingsIOS_Example
 xcode_destination: platform=iOS Simulator,OS=13.6,name=iPhone SE (2nd generation)
 podfile: Example/Podfile

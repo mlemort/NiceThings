@@ -1,6 +1,6 @@
 {
   "name": "NiceThings",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "The pod NiceThings compile cool features i wish i could see natively in the Swift langage.",
   "description": "This pod regroupe nice and usefull things i often use in my iOS projects.\nIt works with subspec so you could just import the thing you want in your project.\nSee the Readme for exemple.",
   "homepage": "https://github.com/mlemort/NiceThings",
@@ -13,10 +13,12 @@
   },
   "source": {
     "git": "https://github.com/mlemort/NiceThings.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "10.3"
+    "ios": "10.3",
+    "osx": "10.15",
+    "tvos": "13.3"
   },
   "swift_versions": "5.0",
   "subspecs": [

@@ -1,0 +1,6 @@
+framework module NiceThings {
+  umbrella header "NiceThings-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
