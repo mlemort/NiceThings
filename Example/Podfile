@@ -10,11 +10,11 @@ def sharedTestsPods
   pod 'Nimble', '9.0.0-rc.3'
 end
 
-target 'NiceThings_Example' do
+target 'NiceThingsIOS_Example' do
   platform :ios, '10.3'
   sharedPods
 
-  target 'NiceThings_Tests' do
+  target 'NiceThingsIOS_Tests' do
     inherit! :search_paths
     sharedTestsPods
   end

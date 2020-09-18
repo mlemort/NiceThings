@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "NiceThings_Example.app"
-               BlueprintName = "NiceThings_Example"
+               BuildableName = "NiceThingsIOS_Example.app"
+               BlueprintName = "NiceThingsIOS_Example"
                ReferencedContainer = "container:NiceThings.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "NiceThings_Tests.xctest"
-               BlueprintName = "NiceThings_Tests"
+               BuildableName = "NiceThingsIOS_Tests.xctest"
+               BlueprintName = "NiceThingsIOS_Tests"
                ReferencedContainer = "container:NiceThings.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "NiceThings_Example.app"
-            BlueprintName = "NiceThings_Example"
+            BuildableName = "NiceThingsIOS_Example.app"
+            BlueprintName = "NiceThingsIOS_Example"
             ReferencedContainer = "container:NiceThings.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "NiceThings_Tests.xctest"
-               BlueprintName = "NiceThings_Tests"
+               BuildableName = "NiceThingsIOS_Tests.xctest"
+               BlueprintName = "NiceThingsIOS_Tests"
                ReferencedContainer = "container:NiceThings.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -78,8 +78,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "NiceThings_Example.app"
-            BlueprintName = "NiceThings_Example"
+            BuildableName = "NiceThingsIOS_Example.app"
+            BlueprintName = "NiceThingsIOS_Example"
             ReferencedContainer = "container:NiceThings.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,8 +95,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "NiceThings_Example.app"
-            BlueprintName = "NiceThings_Example"
+            BuildableName = "NiceThingsIOS_Example.app"
+            BlueprintName = "NiceThingsIOS_Example"
             ReferencedContainer = "container:NiceThings.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_NiceThings_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_NiceThings_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_NiceThingsIOS_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_NiceThingsIOS_TestsVersionString[];
 
