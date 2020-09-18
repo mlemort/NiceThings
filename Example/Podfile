@@ -1,3 +1,5 @@
+use_frameworks!
+
 def sharedPods
   pod 'SwiftLint', '~> 0.40'
   pod 'NiceThings', :path => '../'
@@ -9,7 +11,6 @@ def sharedTestsPods
 end
 
 target 'NiceThings_Example' do
-  use_frameworks!
   platform :ios, '10.3'
   sharedPods
 
@@ -20,7 +21,6 @@ target 'NiceThings_Example' do
 end
 
 target 'NiceThingsMacOS_Example' do
-  use_frameworks!
   platform :osx, '10.15'
   sharedPods
 
