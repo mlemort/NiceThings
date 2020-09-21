@@ -12,56 +12,210 @@ import Nimble
 
 class ConditionalAssignmentOperatorTests: QuickSpec {
     
-    //swiftlint:disable identifier_name
+    //swiftlint:disable identifier_name redundant_optional_initialization
+    //swiftlint:disable:next function_body_length
     override func spec() {
-        it("When conditional assigning value A to variable B with A != nil and B = nil, B must be equal to A") {
-            // setup
-            let a = 3
-            var b: Int?
+
+        describe("Default usage") {
+            it("When conditional assigning value A to variable B with A != nil and B = nil, B must be equal to A") {
+                // setup
+                let a = 3
+                var b: Int?
+                
+                // test
+                b ??= a
+                
+                // expect
+                expect(b).to(equal(a))
+            }
             
-            // test
-            b ??= a
+            it("When conditional assigning value A to variable B with A != nil and B != nil, B must not change") {
+                // setup
+                let a = 3
+                var b: Int? = 4
+                
+                // test
+                b ??= a
+                
+                // expect
+                expect(b).to(equal(4))
+            }
             
-            // expect
-            expect(b).to(equal(a))
+            it("When conditional assigning value A to variable B with A = nil and B != nil, B must not change") {
+                // setup
+                let a: Int? = nil
+                var b: Int? = 4
+                
+                // test
+                b ??= a
+                
+                // expect
+                expect(b).to(equal(4))
+            }
+            
+            it("When conditional assigning value A to variable B with A = nil and B = nil, B must not change") {
+                // setup
+                let a: Int? = nil
+                var b: Int?
+                
+                // test
+                b ??= a
+                
+                // expect
+                expect(b).to(beNil())
+            }
         }
-        
-        it("When conditional assigning value A to variable B with A != nil and B != nil, B must not change") {
-            // setup
-            let a = 3
-            var b: Int? = 4
-            
-            // test
-            b ??= a
-            
-            // expect
-            expect(b).to(equal(4))
+
+        describe("Chaining") {
+            it("When chaining conditional assigning value A == nil, B == nil, C == 3, D == nil to variable E == 1, E must be equal to 1") {
+                // setup
+                var a: Int? = nil
+                var b: Int? = nil
+                var c: Int? = 3
+                let d: Int? = nil
+                var e: Int? = 1
+
+                // test
+                e ??= a ??= b ??= c ??= d
+
+                // expect
+                expect(e).to(equal(1))
+            }
+
+            it("When chaining conditional assigning value A == nil, B == nil, C == 3, D == nil to variable E == nil, E must be equal to 3") {
+                // setup
+                var a: Int?
+                var b: Int?
+                var c: Int? = 3
+                let d: Int? = 4
+                var e: Int?
+
+                // test
+                e ??= a ??= b ??= c ??= d
+
+                // expect
+                expect(e).to(equal(3))
+            }
+
+            it("When chaining conditional assigning value A == nil, B == nil, C == nil, D == nil to variable E == nil, E must be equal to nil") {
+                // setup
+                var a: Int? = nil
+                var b: Int? = nil
+                var c: Int? = nil
+                let d: Int? = nil
+                var e: Int? = nil
+
+                // test
+                e ??= a ??= b ??= c ??= d
+
+                // expect
+                expect(e).to(beNil())
+            }
+
+            it("When chaining conditional assigning value A == nil, B == nil, C == nil, D == nil to variable E == 3, E must be equal to nil") {
+                // setup
+                var a: Int? = nil
+                var b: Int? = nil
+                var c: Int? = nil
+                let d: Int? = nil
+                var e: Int? = 3
+
+                // test
+                e ??= a ??= b ??= c ??= d
+
+                // expect
+                expect(e).to(equal(3))
+            }
+
+            it("When chaining conditional assigning value A == 1, B == 2, C == 2, D == 4 to variable E == 5, E must be equal to 5") {
+                // setup
+                var a: Int? = 1
+                var b: Int? = 2
+                var c: Int? = 3
+                let d: Int? = 4
+                var e: Int? = 5
+
+                // test
+                e ??= a ??= b ??= c ??= d
+
+                // expect
+                expect(e).to(equal(5))
+            }
+
+            it("When chaining conditional assigning value A == 1, B == 2, C == 2, D == 4 to variable E == nil, E must be equal to 1") {
+                // setup
+                var a: Int? = 1
+                var b: Int? = 2
+                var c: Int? = 3
+                let d: Int? = 4
+                var e: Int?
+
+                // test
+                e ??= a ??= b ??= c ??= d
+
+                // expect
+                expect(e).to(equal(1))
+            }
         }
-        
-        it("When conditional assigning value A to variable B with A = nil and B != nil, B must not change") {
-            // setup
-            let a: Int? = nil
-            var b: Int? = 4
-            
-            // test
-            b ??= a
-            
-            // expect
-            expect(b).to(equal(4))
-        }
-        
-        it("When conditional assigning value A to variable B with A = nil and B = nil, B must not change") {
-            // setup
-            let a: Int? = nil
-            var b: Int?
-            
-            // test
-            b ??= a
-            
-            // expect
-            expect(b).to(beNil())
+
+        describe("Using with ??") {
+            it("When chaining conditional assignment operator and value A == nil, B == 2, C == nil to variable D == nil, D must be equal to 4") {
+                // setup
+                let a: Int? = nil
+                let b: Int? = 2
+                let c: Int? = nil
+                var d: Int? = nil
+
+                // test
+                d ??= a ?? b ?? c
+
+                // expect
+                expect(d).to(equal(2))
+            }
+
+            it("When chaining conditional assignment operator and value A == nil, B == 4, C == nil to variable D == nil, D must be equal to 4") {
+                // setup
+                let a: Int? = nil
+                let b: Int? = nil
+                let c: Int? = nil
+                var d: Int? = 4
+
+                // test
+                d ??= a ?? b ?? c
+
+                // expect
+                expect(d).to(equal(4))
+            }
+
+            it("When chaining conditional assignment operator and value A == 1, B == 2, C == 3 to variable D == 4, D must be equal to 4") {
+                // setup
+                let a: Int? = 1
+                let b: Int? = 2
+                let c: Int? = 3
+                var d: Int? = 4
+
+                // test
+                d ??= a ?? b ?? c
+
+                // expect
+                expect(d).to(equal(4))
+            }
+
+            it("When chaining conditional assignment operator and value A == 1, B == 2, C == 3 to variable D == nil, D must be equal to 4") {
+                // setup
+                let a: Int? = 1
+                let b: Int? = 2
+                let c: Int? = 3
+                var d: Int? = nil
+
+                // test
+                d ??= a ?? b ?? c
+
+                // expect
+                expect(d).to(equal(1))
+            }
         }
     }
-    //swiftlint:enable identifier_name
+    //swiftlint:enable identifier_name redundant_optional_initialization
     
 }
