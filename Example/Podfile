@@ -8,7 +8,7 @@ end
 def sharedTestsPods
   inhibit_all_warnings!
   pod 'Quick'
-  pod 'Nimble', '~> 9.0.0-rc.3'
+  pod 'Nimble'
 end
 
 target 'NiceThingsIOS_Example' do
