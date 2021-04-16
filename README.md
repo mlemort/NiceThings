@@ -59,9 +59,9 @@ if ages[safe: 25] == nil {
 // ages has less then 26 entries
 ```
 
-#### ContionalAssignmentOperator
+#### ConditionalAssignmentOperator
 ```ruby
-pod 'NiceThings/ContionalAssignmentOperator'
+pod 'NiceThings/ConditionalAssignmentOperator'
 ```
 This subspec adds the operator `variable ??= value` to swift.
 It assigns `value` to `variable` if `variable` is `nil`; otherwise, `variable` remains the same.

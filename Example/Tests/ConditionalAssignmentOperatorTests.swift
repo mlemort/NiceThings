@@ -12,8 +12,8 @@ import Nimble
 
 class ConditionalAssignmentOperatorTests: QuickSpec {
     
-    //swiftlint:disable identifier_name redundant_optional_initialization
-    //swiftlint:disable:next function_body_length
+    // swiftlint:disable identifier_name redundant_optional_initialization
+    // swiftlint:disable:next function_body_length
     override func spec() {
 
         describe("Default usage") {
@@ -216,6 +216,6 @@ class ConditionalAssignmentOperatorTests: QuickSpec {
             }
         }
     }
-    //swiftlint:enable identifier_name redundant_optional_initialization
+    // swiftlint:enable identifier_name redundant_optional_initialization
     
 }

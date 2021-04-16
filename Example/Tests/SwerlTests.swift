@@ -12,7 +12,7 @@ import Nimble
 
 class SwerlTests: QuickSpec {
     
-    //swiftlint:disable:next function_body_length
+    // swiftlint:disable:next function_body_length
     override func spec() {
         describe("optional") {
             describe("toResult") {

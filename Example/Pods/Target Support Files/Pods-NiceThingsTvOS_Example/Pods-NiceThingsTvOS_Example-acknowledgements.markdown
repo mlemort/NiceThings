@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## NiceThings
 
-Copyright (c) 2020 mlemort <maxime.lemort@technosens.fr>
+Copyright (c) 2020 mlemort <maxime.lemort@viseo.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

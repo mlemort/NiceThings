@@ -6,6 +6,7 @@ osx_image: xcode12
 language: swift
 podfile: Example/Podfile
 script:
+  - swift test
   - set -o pipefail && xcodebuild build test -enableCodeCoverage YES -workspace Example/NiceThings.xcworkspace -scheme NiceThingsIOS_Example -destination platform\=iOS\ Simulator,OS\=14.0,name\=iPhone\ SE\ \(2nd\ generation\) | xcpretty
   - set -o pipefail && xcodebuild build test -enableCodeCoverage YES -workspace Example/NiceThings.xcworkspace -scheme NiceThingsTvOS_Example -destination platform\=tvOS\ Simulator,OS\=14.0,name\=Apple\ TV | xcpretty
   - set -o pipefail && xcodebuild build test -enableCodeCoverage YES -workspace Example/NiceThings.xcworkspace -scheme NiceThingsMacOS_Example | xcpretty
